@@ -1,0 +1,36 @@
+*{
+    padding: 5px;
+}
+body{
+    background-color: #4e1905;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    border: 2px solid #fff;
+    border-radius: 15px;
+    width: 50%;
+    text-align: left;
+    color:#fff;
+    background-color: #592716;
+}
+button{
+    border: #fff;
+    border-radius: 40px;
+}
+button:hover{
+    color:aqua;
+}
+.form-group{
+    margin-bottom: 15px;
+}
+.link{
+    text-align: left;
+}
+#link{
+    color: #fff;
+    text-decoration: none;
+}
+#link:hover{
+    color:#000;
+}

@@ -1,0 +1,42 @@
+
+body{
+background-image:url(img.jpg);
+background-size: cover; 
+background-repeat: no-repeat;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #492a1c;
+    padding: 20px 25px;
+}
+
+/* Logo */
+.logo {
+    width: 2%;
+    display: block;
+
+}
+
+/* Navigation links */
+.links {
+    display: flex;
+    gap: 30px;
+    font-size: 20px
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover{
+    color:aqua;
+    text-decoration:underline;
+}
+.quote{
+    font-size: 100px;
+    color: #fff;
+    text-align: center;
+}
